@@ -14,6 +14,6 @@ subroutine2:
 
 - In this case, if the program execution reaches the end of subroutine1 without any branching instruction, it will continue to the next instruction which is the start of subroutine2.
 
-- It's worth noting that if you want to jump to a specific subroutine from another point in the program, you can use the "branch" (B) instruction to do so, specifying the address of the subroutine as the target.
+- It's worth noting that if you want to jump to a specific subroutine from another point in the program, you can use the "branch" (```B```) instruction to do so, specifying the address of the subroutine as the target.
 
-- You can also use the "branch with link" (BL) instruction to call a subroutine, this instruction will save the return address in the link register (LR) before branching to the subroutine, and you will use "branch exchange" (BX LR) to return to the calling function.
+- You can also use the "branch with link" (```BL```) instruction to call a subroutine, this instruction will save the return address in the link register (```LR```) before branching to the subroutine, and you will use "branch exchange" (```BX LR```) to return to the calling function.

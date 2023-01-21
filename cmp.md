@@ -22,7 +22,7 @@ cmp r0, r1
 mov r2, #10
 cmp r2, #5
 ```
-- In this example, the instruction compares the contents of register r2 (10) with the immediate value 5. The result of the comparison is that r2 is greater than 5.
+- In this example, the instruction compares the contents of register ```r2``` (10) with the immediate value 5. The result of the comparison is that ```r2``` is greater than 5.
 
 - Compare a register with an immediate value and update the condition flags:
 ```
@@ -30,8 +30,8 @@ mov r3, #5
 cmp r3, #7
 ```
 
-- In this example, the instruction compares the contents of register r3 (5) with the immediate value 7. The result of the comparison is that r3 is less than 7. The instruction also updates the condition flags (N, Z, C, and V) based on the result of the comparison.
+- In this example, the instruction compares the contents of register ```r3``` (5) with the immediate value 7. The result of the comparison is that ```r3``` is less than 7. The instruction also updates the condition flags (N, Z, C, and V) based on the result of the comparison.
 
-- Once the comparison is done, you can use branch instructions such as BEQ, BNE, BGT, BLT, etc. that use the result of the comparison to decide whether to branch or not.
+- Once the comparison is done, you can use branch instructions such as ```BEQ```, ```BNE```, ```BGT```, ```BLT```, etc. that use the result of the comparison to decide whether to branch or not.
 
-- It's worth noting that the CMP instruction doesn't modify the contents of the register, it only updates the condition flags and the register contents remain unchanged.
+- It's worth noting that the ```CMP``` instruction doesn't modify the contents of the register, it only updates the condition flags and the register contents remain unchanged.
